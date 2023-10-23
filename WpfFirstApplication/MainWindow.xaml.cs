@@ -37,7 +37,7 @@ namespace WpfFirstApplication
             if(sender is Button btn)
             {
                 btn.Background = randomBrush;
-                MessageBox.Show($"Hey I am Button {btn.Content}");
+                MessageBox.Show($"Button {btn.Content}",$"Color (RGB) {red}-{green}-{blue}");
             }
         }
 
